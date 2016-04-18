@@ -35,6 +35,11 @@
         "activate_network": true
       }
     ],
+    "network_options": [
+        "site_name::Buoy Demo",
+        "registration::all",
+        "blog_upload_space::30"
+    ],
     "options": [
         "blogname::Buoy Demo",
         "blogdescription::Call a friend, not the cops.",
