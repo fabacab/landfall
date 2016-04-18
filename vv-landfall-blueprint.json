@@ -1,0 +1,54 @@
+{
+  "vvv-landfall": {
+    "themes": [
+      {
+        "location": "flat-bootstrap"
+      },
+      {
+        "location": "link",
+        "activate": true
+      }
+    ],
+    "plugins": [
+      {
+        "location": "buoy",
+        "activate_network": true
+      },
+      {
+        "location": "wp-pgp-encrypted-emails",
+        "activate_network": true
+      },
+      {
+        "location": "rest-api",
+        "activate_network": true
+      },
+      {
+        "location": "admin-language-per-user",
+        "activate_network": true
+      },
+      {
+        "location": "simple-custom-css",
+        "activate_network": true
+      },
+      {
+        "location": "multisite-user-management",
+        "activate_network": true
+      }
+    ],
+    "options": [
+        "blogname::Buoy Demo",
+        "blogdescription::Call a friend, not the cops.",
+        "users_can_register::1",
+        "show_on_front::page",
+        "page_on_front::2",
+        "current_theme::Link",
+        "widget_meta::a:2:{i:2;a:1:{s:5:\"title\";s:39:\"Log in or register to try Buoy for free\";}s:12:\"_multiwidget\";i:1;}",
+        "widget_text::a:9:{i:1;a:0:{}i:3;a:3:{s:5:\"title\";s:0:\"\";s:4:\"text\";s:57:\"<!-- Empty to ensure default widget area is not used. -->\";s:6:\"filter\";b:0;}i:5;a:3:{s:5:\"title\";s:26:\"Community-owned & operated\";s:4:\"text\";s:212:\"Buoy can be entirely self-hosted. Run it on your own blog to create a community crisis response system in your neighborhood, with absolutely zero involvement from corporate or government institutions of any kind.\";s:6:\"filter\";b:0;}i:6;a:3:{s:5:\"title\";s:53:\"Get the social support you need with none of the risk\";s:4:\"text\";s:284:\"Noise disturbance? Need parenting support? Use Buoy to call friends and neighbors to the scene, instead of relying on the cops. Read more about <a href=\"http://talkpoverty.org/2016/03/10/when-low-income-mothers-call-the-police/\">what happens when low-income mothers call the cops</a>.\";s:6:\"filter\";b:0;}i:7;a:3:{s:5:\"title\";s:30:\"Group multi-media coordination\";s:4:\"text\";s:259:\"Buoy combines real-time mapping, chat, and recording tools to ensure responders can coordinate effectively even if you are unresponsive. Recordings are immediately shared with the group, so your video is safe with them even if your phone is lost or destroyed.\";s:6:\"filter\";b:0;}i:8;a:3:{s:5:\"title\";s:27:\"Personalized response teams\";s:4:\"text\";s:316:\"Make different teams for different purposes. Make a \"Family\" team to notify relatives of car trouble, or a \"Fire\" team to make a volunteer neighborhood fire brigade. There is no limit on how many teams you can have or how many people can be on a team, and you can send alerts to any combination of teams you need to.\";s:6:\"filter\";b:0;}i:9;a:3:{s:5:\"title\";s:27:\"By activists, for activists\";s:4:\"text\";s:371:\"Buoy is built by the Better Angels collective, a friendly group of anarchist techies committed to feminist, anti-racist, and anti-capitalist struggle. Buoy is a 100% free and open source volunteer-driven project. No strings attached. Learn more <a href=\"https://github.com/betterangels/better-angels/wiki#who-are-the-better-angels\">about the Better Angels collective</a>.\";s:6:\"filter\";b:0;}i:10;a:3:{s:5:\"title\";s:13:\"Decentralized\";s:4:\"text\";s:216:\"Any WordPress-powered website can become a Buoy, and you can use more than one Buoy at once. This means no single entity can control or shut down the Buoy network, and no single administrator can ban your account(s).\";s:6:\"filter\";b:0;}s:12:\"_multiwidget\";i:1;}",
+        "msum_default_user_role::subscriber",
+        "sccss_settings::a:1:{s:13:\"sccss-content\";s:330:\"h1.header-image-title{position:relative;top:-1em;}h2.header-image-caption{visibility:hidden;}.widget_meta::before{position:absolute;display:block;width:100%;height:100%;background:url(\"/wp-content/uploads/2015/01/buoy-icon-256x256.png\") no-repeat center;background-size:contain;opacity:.05;z-index:-1;}.widget_meta h2{margin-top:0;}\";}"
+    ],
+    "demo_content": [
+        "link::https://raw.githubusercontent.com/meitar/landfall/master/demo_content.xml"
+    ]
+  }
+}
