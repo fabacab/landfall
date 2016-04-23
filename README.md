@@ -2,16 +2,14 @@
 
 A [VV](https://github.com/bradp/vv/) blueprint for a preconfigured WordPress Multisite installation with which to demo [Buoy](https://betterangels.github.io/buoy/).
 
-Until certain pull requests are merged, you need to use my personal fork of VV that implements several additional blueprint features.
+First, install [VirtualBox](https://www.virtualbox.org/wiki/Downloads), [Vagrant](https://www.vagrantup.com/downloads.html), [VVV](https://github.com/Varying-Vagrant-Vagrants/VVV#the-first-vagrant-up), and [VV](https://github.com/bradp/vv#installation) if you have not already done so.
 
-First, get VV and this config:
+Then download this config file and use it as your VV blueprint:
 
 ```sh
-mkdir ~/bin && cd ~/bin
-git clone -b meitar-blueprints --single-branch https://github.com/meitar/vv.git
 git clone https://github.com/meitar/landfall.git
+cp landfall/vv-landfall-blueprint.json vagrant-local/vv-blueprints.json
+vv --blueprint vvv-landfall
 ```
 
-Then copy the `vv-landfall-blueprint.json` file to your VVV root directory as `vv-blueprints.json`.
-
-Now you just `vv create --blueprint vvv-landfall` and you're done. :)
+And you're done. :)
